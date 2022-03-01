@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #e9c527;
+}
+
+.wrapper{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: block;
+    margin: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    position: relative;
+    height: 80px;
+    padding: 15px;
+    border-bottom: 3px solid #08000c;
+    line-height: 80px;
+    background-color: #8c27bb;
+}
+
+main{
+    display: block;
+    width: 100vw;
+    position: relative;
+    min-height: 70vh;
+}
+
+#dados-pessoais{
+    margin-top: 10px;
+    padding: 1em;
+    position: relative;
+    border: 1px solid #08000c;
+    background-color: rgb(143, 136, 245);
+    box-shadow: 2px 1px 2px #000000;
+}
+
+#dados-pessoais figcaption{
+    margin: 10px;
+    color: #b45140;
+
+}
+
+.foto{
+    width: 128px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.foto:after{
+    
+}
+
+#dados-atividade{
+    margin-top: 10px;
+    border: 1px solid #08000c;
+    padding: 0.5em;
+    border-radius: 6px 3px;
+    background-color: aliceblue;
+    box-shadow: 2px 1px 2px #08000c;
+}
+
+.lista-atividade{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista-atividade ul,
+.lista-atividade ol{
+    /* Coloca na mesma linha */
+    display: inline-block;
+    margin: 15px;
+    width: 30%;
+}
+
+.rodape{
+    margin: 2px;
+    display: block;
+    border-top: 3px solid #08000c;
+    position: relative;
+    line-height: 80px;
+    background-color: aquamarine;
+}
+
+.logo{
+    margin: 15px;
+}
